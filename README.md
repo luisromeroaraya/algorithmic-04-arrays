@@ -126,7 +126,30 @@ print("The minimum element index is:", index)
 ```
 
 V - ordered array
-- [ ] Write a algorithm which receives an array of integers and check if its ordered ascendantly. Print *true* if the array is ordered, *false* if it’s not.
+- [x] Write a algorithm which receives an array of integers and check if its ordered ascendantly. Print *true* if the array is ordered, *false* if it’s not.
+
+```
+n=int(input("Please write the number of elements you want for your array: (1-10)"))
+i=0
+array=[]
+
+while i < n:
+    element=int(input("Please enter element:"))
+    array.append(element)
+    i=i+1
+
+first=array[0]
+order=True
+for x in array:
+    if x < first:
+        order=False
+    first=x
+
+if order:
+    print("The elements are ordered")
+else:
+    print("The elements are not ordered")
+```
 
 ## Resources
 * [conventions](https://github.com/becodeorg/BXL-Swartz-4-27/blob/master/1.The-Field/7.Algorithmic/conventions.adoc)

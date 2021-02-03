@@ -1,7 +1,7 @@
 # Arrays
-* Type of challenge: learning
-* Duration: 60 min
-* Team challenge: solo
+* Type of challenge: **learning**
+* Duration: **60 min**
+* Team challenge: **solo**
 
 ## Learning objectives
 At the end of this challenge you should:
@@ -15,7 +15,7 @@ This challenge will have you play around with the concept of [arrays](https://en
 
 Arrays are variables of sort, but their specificity is that they can hold multiple values at the same time. If a variables is a box holding a value, then an array is a table containing multiple box.
 
-In computer science an array **begins at 0**, meaning that the first element is on the index 0. They have specific sub functions to add array.add_value and remove array.remove_value data.
+In computer science an array **begins at 0**, meaning that the first element is on the index 0. They have specific sub functions to ```add array.add_value``` and remove ```array.remove_value``` data.
 
 Example
 ```

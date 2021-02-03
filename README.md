@@ -38,7 +38,20 @@ Instructions
 *I will be using [Python3](https://repl.it/languages/python3) to write and test the algorithms*
 
 I - print an array
-- [ ] Write an algorithm which prints everything in an array.
+- [x] Write an algorithm which prints everything in an array.
+```
+n=int(input("Please write the number of elements you want for your array: (1-10)"))
+i=0
+array=[]
+while i < n:
+    element=input("Please enter element:")
+    array.append(element)
+    i=i+1
+
+print("The elements in the array are:")
+for x in array:
+    print("[", x,"]")
+```
 
 II - maximum
 - [ ] Write an algorithm which receives an array of integers and prints its **maximum**.

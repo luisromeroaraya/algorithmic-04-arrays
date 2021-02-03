@@ -39,6 +39,7 @@ Instructions
 
 I - print an array
 - [x] Write an algorithm which prints everything in an array.
+
 ```
 n=int(input("Please write the number of elements you want for your array: (1-10)"))
 i=0
@@ -54,10 +55,48 @@ for x in array:
 ```
 
 II - maximum
-- [ ] Write an algorithm which receives an array of integers and prints its **maximum**.
+- [x] Write an algorithm which receives an array of integers and prints its **maximum**.
+
+```
+n=int(input("Please write the number of elements you want for your array: (1-10)"))
+i=0
+array=[]
+
+while i < n:
+    element=int(input("Please enter element:"))
+    array.append(element)
+    i=i+1
+    
+max=array[0]
+
+for x in array:
+    if x > max:
+        max=x
+
+print("The maximum element is:", max)
+```
 
 III - minimum
-- [ ] Write an algorithm which receives an array of integers and prints its **minimum**.
+- [x] Write an algorithm which receives an array of integers and prints its **minimum**.
+
+```
+n=int(input("Please write the number of elements you want for your array: (1-10)"))
+i=0
+array=[]
+
+while i < n:
+    element=int(input("Please enter element:"))
+    array.append(element)
+    i=i+1
+
+min=array[0]
+
+for x in array:
+    if x < min:
+        min=x
+
+print("The minimum element is:", min)
+```
 
 IV - minimum position
 - [ ] Write an algorithm which receives an array of integers and prints the position of its **minimum**.

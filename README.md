@@ -35,6 +35,8 @@ Instructions
 * detail each and every step
 * indicates the types of used variables
 
+*I will be using [Python3](https://repl.it/languages/python3) to write and test the algorithms*
+
 I - print an array
 - [ ] Write an algorithm which prints everything in an array.
 

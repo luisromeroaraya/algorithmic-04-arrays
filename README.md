@@ -1,4 +1,4 @@
-# Arrays
+# [Arrays](https://github.com/becodeorg/BXL-Swartz-4-27/blob/master/1.The-Field/7.Algorithmic/04-arrays.adoc)
 * Type of challenge: **learning**
 * Duration: **60 min**
 * Team challenge: **solo**
@@ -39,7 +39,6 @@ Instructions
 
 I - print an array
 - [x] Write an algorithm which prints everything in an array.
-
 ```
 n=int(input("Please write the number of elements you want for your array: (1-10)"))
 i=0
@@ -56,7 +55,6 @@ for x in array:
 
 II - maximum
 - [x] Write an algorithm which receives an array of integers and prints its **maximum**.
-
 ```
 n=int(input("Please write the number of elements you want for your array: (1-10)"))
 i=0
@@ -78,7 +76,6 @@ print("The maximum element is:", max)
 
 III - minimum
 - [x] Write an algorithm which receives an array of integers and prints its **minimum**.
-
 ```
 n=int(input("Please write the number of elements you want for your array: (1-10)"))
 i=0
@@ -100,7 +97,6 @@ print("The minimum element is:", min)
 
 IV - minimum position
 - [x] Write an algorithm which receives an array of integers and prints the position of its **minimum**.
-
 ```
 n=int(input("Please write the number of elements you want for your array: (1-10)"))
 i=0
@@ -127,7 +123,6 @@ print("The minimum element index is:", index)
 
 V - ordered array
 - [x] Write a algorithm which receives an array of integers and check if its ordered ascendantly. Print *true* if the array is ordered, *false* if it’s not.
-
 ```
 n=int(input("Please write the number of elements you want for your array: (1-10)"))
 i=0
